@@ -88,6 +88,10 @@ body{
     line-height: 21px;
     letter-spacing: 1px;
 }
+.list-link{
+    text-decoration: none;
+    color: #000;
+}
 .header-ikon:nth-child(1){
     margin-right: 11px;
 }
