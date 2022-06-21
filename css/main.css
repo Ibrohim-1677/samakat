@@ -37,7 +37,7 @@ body{
     padding: 0;
 }
 .container{
-    width: 1140px;
+    max-width: 1140px;
     padding-right: 20px;
     padding-left: 20px;
     margin-right: auto;
@@ -104,7 +104,7 @@ body{
     background-size: cover;
     text-align: center;
     background-attachment: fixed;
-    background-position: top;
+    background-position: bottom;
 }
 .welcome-title{
     padding-top: 53px;
@@ -431,3 +431,171 @@ body{
 .links-item{
     margin-left: 5px;
 }
+.hamburger {
+    display: none;
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+}
+.swiper{
+    display: none;
+}
+@media only screen and (max-width: 425px){
+    .container{
+        max-width: 425px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header-list{
+        display: none;
+    }
+    .main-welcome{
+        height: 450px;
+        width: 425px;
+        background-attachment:initial;
+    }
+    .hamburger{
+        display: block;
+    }
+    .welcome-title{
+        font-size: 24px;
+    }
+    .site-logotype{
+        margin-right: auto;
+    }
+    .links-item:nth-child(1){
+        margin-left: 50px;
+    }
+    .link-box{
+        flex-direction: column;
+        padding-right: 50px;
+    }
+    .welcome-link{
+        font-size: 13px;
+        margin-top: 8px;
+    }
+    .link-img{
+        width: 120px;
+        margin-top: 20px;
+    }
+    .looking{
+        width: 405px;  
+        margin-right: 40px;
+    }
+    .lookin-title{
+        font-size: 20px;
+    }
+    .welcome-text{
+        font-size: 13px;
+    }
+    .looking-text{
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .box-1{
+        width: 425px;
+        padding: 100px 0;
+        margin-bottom: 30px;
+    }
+    .box-2{
+        width: 425px;
+        margin-bottom: 30px;
+        margin-left: 0;
+        padding: 100px 0;
+    }
+    .electric-box{
+        max-width: 425px;
+    }
+    .electric-title{
+        font-size: 20px;
+    }
+    .electric-text{
+        font-size: 13px;
+    }
+    .electric{
+        padding: 44px 0px 350px 0px;
+        background-attachment: initial;
+    }
+    .boosted{
+        flex-direction: column;
+    }
+    .boosted-img{
+        display: none;
+    }
+    .boosted{
+        color: #fff;
+        text-align: center;
+        background-repeat: no-repeat;
+        margin-left: 0;
+        padding-bottom: 30px;
+        margin-left: 13px;
+        padding-right: 30px;
+        background-image: url(../img/Rectangle-1.png);
+    }
+    .boosted-title{
+        font-size: 20px;
+    }
+    .boosted-text{
+        font-size: 13px;
+    }
+    .box-big{
+        flex-direction: column;
+    }
+    .box-3,.box-4,.box-5{
+        padding: 100px 0;
+    }
+    .box-3-text{
+        font-size: 16px;
+    }
+    .samakat{
+        width: 405px;
+        margin-bottom: 10px;
+    }
+    .box-3-title{
+        font-size: 20px;
+    }
+    .skeyt{
+        width: 405px;
+    }
+    .swiper{
+        display: block;
+    }
+    .lightSlider{
+        display: none;
+    }
+    line{
+        display: none;
+    }
+    .liner{
+            width: 100%;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 2px 0px 10px rgba(41, 44, 61, 0.34);
+            border-radius: 0px;
+    }
+    .go-far-list{
+        flex-direction: column;
+    }
+    .footer-hero{
+        text-align: center;
+        flex-direction: column;
+    }
+    .footer-hero-text{
+        margin-left: 30px;
+    }
+    .footer-botton{
+        flex-direction: column;
+    }
+    .link-sites{
+        font-size: 10px;
+        margin-left: 0;
+        margin-right: -10px;
+    }
+    .links{
+        margin-right: 80px;
+    }
+}
+

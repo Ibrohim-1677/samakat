@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <title>Document</title>
 </head>
 
@@ -19,7 +20,7 @@
             <div class="containers">
 
                 <div class="header-box">
-                    <a href="index.html"><img src="./img/site-logo.svg" alt="site logo"></a>
+                    <a class="site-logotype" href="index.html"><img src="./img/site-logo.svg" alt="site logo"></a>
                     <ul class="header-list">
                         <li class="list-item"><a class="list-link" href="">ELECTRIC SKATEBOARDS</a></li>
                         <li class="list-item"><a class="list-link" href="">ELECTRIC SCOOTERS</a></li>
@@ -29,6 +30,7 @@
                     </ul>
                     <a href="#"><img class="header-ikon" src="./img/man.svg" alt="photo people"></a>
                     <a href="#"><img class="header-ikon" src="./img/korzinka.svg" alt="photo korzinka"></a>
+                    <button class="hamburger" type="button">&#9776;</button>
                 </div>
             </div>
         </section>
@@ -54,13 +56,13 @@
         <section class="link-section">
             <div class="container">
                 <ul class="link">
-                    <li class="links-item"><a class="links-link" href="#"><img src="./img/Rectangle.svg" alt=""></a>
+                    <li class="links-item">
+                        <a class="links-link" href="#"><img class="link-img" src="./img/Rectangle.svg" alt=""></a>
+                        <a class="links-link" href="#"><img class="link-img" src="./img/Rectangle (1).svg" alt=""></a>
                     </li>
-                    <li class="links-item"><a class="links-link" href="#"><img src="./img/Rectangle (1).svg" alt=""></a>
-                    </li>
-                    <li class="links-item"><a class="links-link" href="#"><img src="./img/Rectangle (2).svg" alt=""></a>
-                    </li>
-                    <li class="links-item"><a class="links-link" href="#"><img src="./img/Rectangle (3).svg" alt=""></a>
+                    <li class="links-item">
+                        <a class="links-link" href="#"><img class="link-img" src="./img/Rectangle (2).svg" alt=""></a>
+                        <a class="links-link" href="#"><img class="link-img" src="./img/Rectangle (3).svg" alt=""></a>
                     </li>
                 </ul>
             </div>
@@ -126,9 +128,10 @@
                 <div class="boosted">
                     <img class="boosted-img" src="./img/Rectangle.png"
                         alt="a girl samakatta uchvotti and she girl in a yellow skirt">
-                    <img class="boosted-img" src="./img/Rectangle (1).png"
+                    <img class="boosted-img" src="./img/Rectangle-1.png"
                         alt="The steering wheel of the bicycle is shown and this steering wheel is lowered to 23 speeds">
                     <div class="boosted-box">
+                        <div class="booster-adapt">
                         <h2 class="boosted-title">
                             Boosted Rev
                         </h2>
@@ -139,6 +142,7 @@
                             Its intuitive design means there's almost no learning curve.
                         </p>
                         <a class="boosted-link" href="#">Shop Now</a>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -215,18 +219,71 @@
                         <p class="shop-old">$16.00</p><span class="shop-swan"> $19.00</span>
                     </li>
                     <li class="shop">
-                        <img src="./img/slider/Rectangle (5).png" alt="">
-                        <h3 class="shop-title">Rev Tube</h3>
-                        <p class="shop-old">$16.00</p><span class="shop-swan"> $19.00</span>
-                    </li>
-                    <li class="shop">
                         <img src="./img/slider/Rectangle (6).png" alt="">
                         <h3 class="shop-title">Rev Tube</h3>
                         <p class="shop-old">$16.00</p><span class="shop-swan"> $19.00</span>
                     </li>
                 </ul>
             </div>
-            <div class="line">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <li class="shop">
+                            <img src="./img/slider/Rectangle.png" alt="">
+                            <h3 class="shop-title">Rev Tube</h3>
+                            <p class="shop-old">$16.00</p><span class="shop-swan"> $19.00</span>
+                        </li>
+                    </div>
+                    <div class="swiper-slide">
+                        <li class="shop">
+                            <img src="./img/slider/Rectangle (1).png" alt="">
+                            <h3 class="shop-title">Rev Tube</h3>
+                            <p class="shop-old">$16.00</p><span class="shop-swan"> $19.00</span>
+                        </li>
+                    </div>
+                    <div class="swiper-slide">
+                        <li class="shop">
+                            <img src="./img/slider/Rectangle (2).png" alt="">
+                            <h3 class="shop-title">Rev Tube</h3>
+                            <p class="shop-old">$16.00</p><span class="shop-swan"> $19.00</span>
+                        </li>
+                    </div>
+                    <div class="swiper-slide">
+                        <li class="shop">
+                            <img src="./img/slider/Rectangle (3).png" alt="">
+                            <h3 class="shop-title">Rev Tube</h3>
+                            <p class="shop-old">$16.00</p><span class="shop-swan"> $19.00</span>
+                        </li>
+                    </div>
+                    <div class="swiper-slide">
+                        <li class="shop">
+                            <img src="./img/slider/Rectangle (4).png" alt="">
+                            <h3 class="shop-title">Rev Tube</h3>
+                            <p class="shop-old">$16.00</p><span class="shop-swan"> $19.00</span>
+                        </li>
+                    </div>
+                    <div class="swiper-slide">
+                        <li class="shop">
+                            <img src="./img/slider/Rectangle (5).png" alt="">
+                            <h3 class="shop-title">Rev Tube</h3>
+                            <p class="shop-old">$16.00</p><span class="shop-swan"> $19.00</span>
+                        </li>
+                    </div>
+                    <div class="swiper-slide">
+                        <li class="shop">
+                            <img src="./img/slider/Rectangle (6).png" alt="">
+                            <h3 class="shop-title">Rev Tube</h3>
+                            <p class="shop-old">$16.00</p><span class="shop-swan"> $19.00</span>
+                        </li>
+                    </div>
+                    </div>
+                    ...
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="line liner">
             </div>
         </section>
         <section>
@@ -301,6 +358,7 @@
             </div>
         </section>
     </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
-
 </html>
